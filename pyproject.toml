@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log_storage_system"
+version = "0.1.0"
+description = "Log Storage System"
+authors = [
+  { name = "Your Name", email = "shynkevich.darya@gmail.com" }
+]
+readme = "README.md"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pytest>=7.0"
+]
+
+[tool.setuptools]
+py-modules = ["log_system", "main"]

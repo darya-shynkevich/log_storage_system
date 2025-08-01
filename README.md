@@ -10,3 +10,8 @@ Implement the `LogSystem` class:
   - Returns the IDs of the logs whose timestamps are within the range from start to end inclusive. 
   - start and end all have the same format as timestamp, and granularity means how precise the range should be (i.e. to the exact Day, Minute, etc.). 
   - For example, `start = "2017:01:01:23:59:59"`, `end = "2017:01:02:23:59:59"`, and `granularity = "Day"` means that we need to find the logs within the inclusive range from `Jan. 1st 2017` to `Jan. 2nd 2017`, and the Hour, Minute, and Second for each log entry can be ignored.
+
+### Usage 
+
+1. To install dependencies : ` uv sync --all-groups --dev`
+2. To run tests : `pytest .`
